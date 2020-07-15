@@ -38,3 +38,7 @@ ul.dir li::before {
 .extraInfo::before {
 	content: "Extra info: ";
 }
+
+a {
+	color: black !important;
+}
