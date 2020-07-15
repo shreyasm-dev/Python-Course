@@ -19,7 +19,6 @@ body, html {
 
 * {
 	font-family: 'Sora', sans-serif;
-	font-weight: 200;
 }
 
 ul.dir {
@@ -30,6 +29,10 @@ ul.dir li::before {
 	content: '|-- ';
 }
 
-a {
-	color: black !important;
+.extraInfo {
+	font-size: 13px;
+}
+
+.extraInfo::before {
+	content: "Extra info: ";
 }
