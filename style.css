@@ -53,7 +53,7 @@
     display: inline-block;
     word-wrap: break-word;
   }
-	
-	pre.code {
-		border-radius: 10px;
-	}
+
+  pre.code {
+    border-radius: 10px;
+  }
